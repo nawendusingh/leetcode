@@ -15,7 +15,7 @@ def lcp(arr):
             if(arr[j][i] != current):
                 return result
 # result moved to outer for loop because current  was
-# getting added twice to resultinside inner for loop
+# getting added twice to result inside inner for loop
         result += current
     return result
 
